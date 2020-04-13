@@ -1,0 +1,131 @@
+﻿.buttonGroup {
+    display: flex;
+    justify-content: center;
+}
+
+#textArea,
+.result {
+    background-color: rgba(185, 174, 174, 0.555);
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 20px;
+    margin: 10px 30px;
+    min-height: 200px;
+    width: 90%;
+}
+
+.btn {
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    color: white;
+}
+
+.btn_edit {
+    background-color: rgb(212, 201, 44);
+    color: black;
+}
+
+.btn_style {
+    background-color: rgb(34, 100, 185);
+}
+
+.btn_add {
+    background-color: rgb(206, 46, 18);
+}
+
+.btn_create,
+.btn_save {
+    background-color: green;
+}
+
+.btn_color,
+.btn_bgcolor {
+    width: 150px;
+    background-color: rgb(107, 106, 106);
+}
+
+.editBox,
+.tableListBox,
+.styleBox,
+.forTable,
+.listBox {
+    display: none;
+}
+
+#fontFamily {
+    width: 20%;
+}
+
+.containerColors {
+    width: 210px;
+    height: 210px;
+    margin: 150px auto;
+    background-color: antiquewhite;
+    display: none;
+    position: relative;
+    left: 100px;
+    top: -350px;
+}
+
+.size {
+    width: 70px;
+    height: 70px;
+    background-size: 100% 100%;
+}
+
+.red {
+    background-color: red;
+}
+
+.orangered {
+    background-color: orangered;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.yellowGreen {
+    background-color: yellowgreen;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.darkBlue {
+    background-color: darkblue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.table {
+    text-align: center;
+}
+
+.choose {
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    text-align: left;
+}
+
+.fontweight,
+.fontsize {
+    display: flex;
+}
